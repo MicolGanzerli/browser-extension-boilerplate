@@ -1,12 +1,59 @@
-.my-beautiful-extension {
-  transform: rotate(180deg);
+/*.my-beautiful-extension {
+  transform: rotate(0deg);
   border: 10px red solid;
-}
-
-.my-beautiful-extension .rep-main-logo {
-  transform: rotate(180deg) !important;
-}
-
-/* .my-beautiful-extension .logoRotated {
-  transform: rotate(180deg) !important;
 } */
+
+/* freccia */
+.PlayerControlsNeo__core-controls .button-nfplayerBack {
+    font-size: 170px;
+    height: 280px;
+}
+
+/* background */
+.VideoContainer {
+    background-color: red;
+}
+
+/* pallino */
+.nfp .scrubber-container .scrubber-head {
+    background: white;
+    height: 5.0em;
+    width: 5.0em;
+    margin: -2.50em;
+}
+
+/* caricamento1 */
+.nfp .scrubber-container .current-progress {
+    background: gray;
+}
+
+/* caricamento2 */
+.nfp .scrubber-container .track {
+    background:red;
+}
+
+/* bottoni invisibili */
+.PlayerControlsNeo__bottom-controls .button-nfplayerEpisodes {
+   display: none;
+}
+.PlayerControlsNeo__bottom-controls .button-nfplayerNextEpisode {
+   display: none;
+}
+
+
+/* ALWAYS ON DISPLAY */
+.PlayerControlsNeo__layout--inactive .PlayerControlsNeo__core-controls, .PlayerControlsNeo__layout--dimmed .PlayerControlsNeo__core-controls{
+    opacity: 1!important;
+}
+
+.PlayerControlsNeo__bottom-controls--faded{
+    opacity: 1!important;
+    visibility: visible;
+}
+
+.NFPlayer.nf-player-container.inactive .PlayerControlsNeo__bottom-controls, .PlayerControlsNeo__bottom-controls--faded .PlayerControlsNeo__bottom-controls{
+    opacity: 1!important;
+}
+
+
+
