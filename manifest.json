@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Netkills",
-  "description": "description",
+  "description": "Kill Netflix with the extension that will lead you to awereness!",
   "version": "1.0",
   "homepage_url": "https://github.com/calibro/browser-extension-boileplate",
   "icons": {
@@ -26,7 +26,7 @@
       "38": "icons/icon-38-off.png"
     },
     "browser_style": true,
-    "default_title": "apply css"
+    "default_title": "kill"
   },
 
   "permissions": ["activeTab", "tabs", "storage"]
