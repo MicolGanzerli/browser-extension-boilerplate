@@ -1,5 +1,5 @@
-const TITLE_APPLY = "apply css";
-const TITLE_REMOVE = "remove css";
+const TITLE_APPLY = "kill";
+const TITLE_REMOVE = "unkill";
 const APPLICABLE_PROTOCOLS = ["http:", "https:"];
 
 /*
